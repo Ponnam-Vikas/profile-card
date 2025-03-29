@@ -14,9 +14,13 @@ This is a simple **HTML & CSS** profile card featuring a **profile image, bio, a
 - **CSS** for styling and responsiveness.
 
 ## How to Run the Project
-1. **Clone the Repository** or download the project files.
-2. Open the project folder in **VS Code** or any text editor.
-3. Run the project using:
+### Option 1: Using Live Server (Recommended)
+1. Open the project folder in **VS Code**.
+2. Install the **Live Server** extension if not already installed.
+3. Right-click on `index.html` and select **Open with Live Server**.
+
+### Option 2: Using Start Command
+1. Open the project folder in **VS Code** or any text editor.
+2. Open the terminal and run:
    ```sh
    start index.html
-
