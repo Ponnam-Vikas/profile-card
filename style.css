@@ -1,0 +1,81 @@
+/* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the profile card */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+/* Profile card container (Increased size) */
+.profile-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect on card */
+.profile-card:hover {
+    transform: scale(1.07);
+}
+
+/* Profile image styling */
+.profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #6a11cb;
+}
+
+/* Name styling */
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Designation styling */
+.designation {
+    font-size: 18px;
+    color: #6a11cb;
+    margin: 5px 0;
+}
+
+/* Bio section increased */
+.bio {
+    font-size: 14px;
+    color: #444;
+    margin: 15px 0;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Social media icons */
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icon {
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 24px;
+    color: #6a11cb;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #2575fc;
+}
